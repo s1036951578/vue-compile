@@ -1,0 +1,1 @@
+{"version":3,"file":"vue.js","sources":["../src/index.js"],"sourcesContent":["\n\nfunction Vue(){\n\n}\n\n\nexport default Vue"],"names":["Vue"],"mappings":";;;;;;CAEA,SAASA,GAAT,GAAc;;;;;;;;"}
