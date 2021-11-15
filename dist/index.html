@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-  <script src="./vue.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      123345 {{ msg }}8888 {{opt}} nhlnlk
+      <div>123</div>
+    </div>
+    <script src="./vue.js"></script>
+    <script>
+      const vue = new Vue({
+        el: '#app',
+        data: {
+          msg: 'to be no.1',
+          opt: '489',
+        },
+        template: `<div><div>`,
+      });
+    </script>
+  </body>
 </html>
